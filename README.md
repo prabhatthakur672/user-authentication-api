@@ -13,7 +13,7 @@
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#send-otp-request')">Copy</button>
+<button onclick="copyToClipboard('#send-otp-request')"></button>
 
 ### Response Examples:
 
@@ -25,8 +25,9 @@
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#send-otp-success')">Copy</button>
+<button onclick="copyToClipboard('#send-otp-success')"></button>
 - **Status:** `200 OK`
+
 
 - **2. Error Response (Phone number missing):**
 <pre>
