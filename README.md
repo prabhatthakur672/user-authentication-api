@@ -14,4 +14,12 @@
 <button onclick="copyToClipboard('#clone-command')"></button>
 
 ### Response Examples:
-  ### Success Response:
+- **1.Success Response:**
+<pre>
+  <code id="clone-command">
+    {
+    "message": "OTP sent successfully."
+    }
+</pre>
+<button onclick="copyToClipboard('#clone-command')"></button>
+- **Status:** `200 OK`
