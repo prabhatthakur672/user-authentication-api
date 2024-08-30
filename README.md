@@ -1,10 +1,10 @@
-#### Request/Response Structure
+# Request/Response Structure
 
 ## 1.`SendOTP` Endpoint
-# URL: `/api/send-otp/`
-# Method: POST
+### URL: `/api/send-otp/`
+### Method: POST
 
-# Request Body Example:
+### Request Body Example:
 <pre>
   <code id="clone-command">
     {
@@ -12,3 +12,6 @@
     }
 </pre>
 <button onclick="copyToClipboard('#clone-command')"></button>
+
+### Response Examples:
+#### Success Response:
