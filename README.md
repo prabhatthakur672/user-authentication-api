@@ -26,7 +26,7 @@
   </code>
 </pre>
 <button onclick="copyToClipboard('#send-otp-success')"></button>
-- Status: `200 OK`
+Status: `200 OK`
 
 
 - **2. Error Response (Phone number missing):**
