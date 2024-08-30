@@ -37,8 +37,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#send-otp-error-missing')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#send-otp-error-missing')"></button>
+Status: `400 Bad Request`
 
 - **3. Error Response (Phone number length incorrect):**
 <pre>
@@ -48,8 +48,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#send-otp-error-length')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#send-otp-error-length')"></button>
+Status: `400 Bad Request`
 
 - **4. Error Response (Twilio Error):**
 <pre>
@@ -59,8 +59,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#send-otp-error-twilio')">Copy</button>
-- **Status:** `500 Internal Server Error`
+<button onclick="copyToClipboard('#send-otp-error-twilio')"></button>
+Status: `500 Internal Server Error`
 
 ---
 
@@ -78,7 +78,7 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-request')">Copy</button>
+<button onclick="copyToClipboard('#verify-otp-request')"></button>
 
 ### Response Examples:
 
@@ -91,8 +91,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-success')">Copy</button>
-- **Status:** `200 OK`
+<button onclick="copyToClipboard('#verify-otp-success')"></button>
+Status: `200 OK`
 
 - **2. Error Response (Phone number or OTP missing):**
 <pre>
@@ -102,8 +102,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-error-missing')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#verify-otp-error-missing')"></button>
+Status: `400 Bad Request`
 
 - **3. Error Response (Phone number length incorrect):**
 <pre>
@@ -113,8 +113,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-error-length')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#verify-otp-error-length')"></button>
+Status: `400 Bad Request`
 
 - **4. Error Response (OTP length incorrect):**
 <pre>
@@ -124,8 +124,8 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-error-otp-length')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#verify-otp-error-otp-length')"></button>
+Status: `400 Bad Request`
 
 - **5. Error Response (Invalid Credentials):**
 <pre>
@@ -135,5 +135,5 @@ Status: `200 OK`
     }
   </code>
 </pre>
-<button onclick="copyToClipboard('#verify-otp-error-invalid')">Copy</button>
-- **Status:** `400 Bad Request`
+<button onclick="copyToClipboard('#verify-otp-error-invalid')"></button>
+Status: `400 Bad Request`
