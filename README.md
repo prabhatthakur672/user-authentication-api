@@ -1,5 +1,14 @@
+#### Request/Response Structure
+
+## 1.`SendOTP` Endpoint
+# URL: `/api/send-otp/`
+# Method: POST
+
+# Request Body Example:
 <pre>
-  <code id="clone-command">git clone https://github.com/prabhatthakur672/HelpBridge.git
-  cd community_support_app</code>
+  <code id="clone-command">
+    {
+      "phone_number": "+911234567890"
+    }
 </pre>
 <button onclick="copyToClipboard('#clone-command')"></button>
