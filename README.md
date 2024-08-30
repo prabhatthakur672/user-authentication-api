@@ -14,4 +14,4 @@
 <button onclick="copyToClipboard('#clone-command')"></button>
 
 ### Response Examples:
-#### Success Response:
+  ### Success Response:
